@@ -98,16 +98,26 @@
     letter-spacing: 1.1rem;
     font-weight: 900;
   }
+  
+    .nav2{
+    padding-top: 3rem;
+  }
+  .nav__flex2{
+    display: flex;
+    align-items: center;
+  }
+  .nav__list2{
+    list-style: none;
+  }
+  .nav__item2{
+    display: inline-block;
+    padding:  0 2rem;
+  }
   .nav__link2{
     text-decoration: none;
     color: #19536b;
     font-size: 1.5rem;
-    justifity-content: center;
-    text-align: center;
   }
-    .nav__link2{
-      color: #19536b;
-    }
  
 /**********************************************************/
 
@@ -224,8 +234,8 @@
     transform: translateY(-8rem);
   }
     .gallery__images--2{
-      width: 374px;
-      heigth: 565px;
+      width: 376px;
+      heigth: 567px;
     }
 /***********************************************************/
 
@@ -323,7 +333,7 @@
 }
 .footer__social{
   display: flex;
-  padding: 30px;
+  padding: 30px 60px;
   position: relative;
   bottom: 20px;
   justify-content: center;
@@ -500,14 +510,16 @@
         <h5 class="heading-5">
           sunnyside
         </h5>
-      <ul class="nav__list2">
+        <nav class="nav2">
+          <ul class="nav__list2">
             <li class="nav__item2"><a href="#" class="nav__link2">About</a></li>
             <li class="nav__item2"><a href="#" class="nav__link2">Services</a></li>
             <li class="nav__item2"><a href="#" class="nav__link2">Projects</a></li>
           </ul>
+        </nav>
         <div class="footer__social">
-          <a href="https://vk.com/amigo.khaydarov"><img src="images/icon-instagram.svg"></a>
-         <a href="https://instagram.com/t_amirsana?utm_medium=copy_link"><img src="images/icon-facebook.svg"></a>
+          <a href="https://vk.com/amigo.khaydarov" class="instagram"><img src="images/icon-instagram.svg"></a>
+         <a href="https://instagram.com/t_amirsana?utm_medium=copy_link" class="facebook"><img src="images/icon-facebook.svg"></a>
         </div>
       </div>
     </footer>
