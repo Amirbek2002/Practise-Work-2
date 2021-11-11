@@ -98,7 +98,13 @@
     letter-spacing: 1.1rem;
     font-weight: 900;
   }
-  
+  .nav__link2{
+    text-decoration: none;
+    color: #19536b;
+    font-size: 1.5rem;
+    justifity-content: center;
+    text-align: center;
+  }
 /**********************************************************/
 
 
@@ -213,6 +219,10 @@
     opacity: 1;
     transform: translateY(-8rem);
   }
+    .gallery__images--2{
+      width: 400px;
+      heigth: 600px;
+    }
 /***********************************************************/
 
 .testimonials{
@@ -309,12 +319,12 @@
 }
 .footer__social{
   display: flex;
+  padding: 30px;
+  position: relative;
+  bottom: 20px;
+  justify-content: center;
 }
-.footer__social > *:not(last-child){
-  margin-right: 5rem;
-  color: #000;
-  font-size: 3rem;
-}
+
 .heading-5{
   font-size: 3rem;
   color: #19536b;
@@ -486,22 +496,14 @@
         <h5 class="heading-5">
           sunnyside
         </h5>
-        <ul class="footer__list">
-          <li class="footer__item">
-            <a href="#">About</a>
-          </li>
-          <li class="footer__item">
-            <a href="#">Services</a>
-          </li>
-          <li class="footer__item">
-            <a href="#">Projects</a>
-          </li>
-        </ul>
+      <ul class="nav__list2">
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Projects</a></li>
+          </ul>
         <div class="footer__social">
-          <i class="iconfont-facebook"></i>
-          <i class="iconfont-instagram"></i>
-          <i class="iconfont-twitter"></i>
-          <i class="iconfont-pinterest"></i>
+          <a href="https://vk.com/amigo.khaydarov"><img src="icon-instagram.svg"></a>
+         <a href="https://instagram.com/t_amirsana?utm_medium=copy_link"><img src="icon-facebook.svg"></a>
         </div>
       </div>
     </footer>
